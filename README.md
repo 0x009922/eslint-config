@@ -42,3 +42,30 @@ npm i --save-dev @liquidsolid/eslint-config
 #### `@liquidsolid/eslint-config/vue-2`
 
 Правила для Vue 2. Просто чтобы были.
+
+## Cookbook
+
+### Добавить алиас `@` на `./src` в eslint
+
+Сначала установить резолвер:
+
+```sh
+npm i --save-dev eslint-import-resolver-alias
+```
+
+И добавить в конфиг:
+
+```js
+module.exports = {
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', './src']
+        ],
+        extensions: ['.ts', '.js', '.json' /* etc */ ]
+      }
+    }
+  }
+}
+```
