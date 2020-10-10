@@ -24,6 +24,7 @@ module.exports = {
     'no-nested-ternary': 'off',
     'no-bitwise': 'off',
     'no-plusplus': 'off',
-    'no-param-reassign': 'off'
+    'no-param-reassign': 'off',
+    'no-use-before-define': 'off'
   }
 }
