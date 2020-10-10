@@ -23,22 +23,22 @@ npm i --save-dev @liquidsolid/eslint-config
 
 **Важно**: конфиг для TypeScript **должен идти раньше** конфига для Vue, потому что во Vue свой парсер.
 
-## Пакеты
+### Пакеты
 
 Друг друга в себя не включают, т. е. если нужен и `typescript`, и `vue`, и `base`, их все надо подключать по отдельности.
 
-### `@liquidsolid/eslint-config/base`
+#### `@liquidsolid/eslint-config/base`
 
 Конфиг `airbnb-base/whitespace`. Может использоваться самостоятельно.
 
-### `@liquidsolid/eslint-config/typescript`
+#### `@liquidsolid/eslint-config/typescript`
 
 Набор правил для TypeScript. Может использоваться самостоятельно.
 
-### `@liquidsolid/eslint-config/vue`
+#### `@liquidsolid/eslint-config/vue`
 
 Набор правил для Vue 3
 
-### `@liquidsolid/eslint-config/vue-2`
+#### `@liquidsolid/eslint-config/vue-2`
 
 Правила для Vue 2. Просто чтобы были.
