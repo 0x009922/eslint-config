@@ -12,7 +12,7 @@ module.exports = {
     ],
   },
   rules: {
-    'import/extensions': ['error', 'always', {
+    'import/extensions': ['warn', 'always', {
       js: 'never',
       mjs: 'never',
       jsx: 'never',
