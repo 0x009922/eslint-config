@@ -25,6 +25,12 @@ module.exports = {
     'no-bitwise': 'off',
     'no-plusplus': 'off',
     'no-param-reassign': 'off',
-    'no-use-before-define': 'off'
+    'no-use-before-define': 'off',
+
+    'no-unused-expressions': ['warn', {
+      allowShortCircuit: true,
+      allowTernary: true,
+      allowTaggedTemplates: true
+    }]
   }
 }
