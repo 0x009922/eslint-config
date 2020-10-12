@@ -69,3 +69,17 @@ module.exports = {
   }
 }
 ```
+
+### JTS/TSX
+
+Добавить в конфиг:
+
+```js
+module.exports = {
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
+  }
+}
+```
